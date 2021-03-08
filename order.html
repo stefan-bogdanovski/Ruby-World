@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Star</title>
+    <meta name="keywords" content="form, purchase, order, technology, laptop"/>
+    <meta name="description" content="Order asus or apple laptop online without any problems! Ruby star is here!"/>
+    <script src="https://kit.fontawesome.com/0f0bb38c5e.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet"  href="css/style.css" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div id="logo" class="text-center">
+                            <a href="index.html" class="text-danger twinds" id="logo"> Ruby Star </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <nav id="navigation">
+                              <ul class="d-flex v-align justify-content-around mb-0">
+                                  <li>
+                                      <a href="index.html" class="text-light"> <i> Home </i> </a>
+                                  </li>
+                                  <li>
+                                      <a href="order.html"  class="text-light"> <i> Order </i> </a>
+                                  </li>
+                                  <li>
+                                      <a href="http://stefanb.000webhostapp.com/"  class="text-light" target="_blank"> <i> Author </i> </a>
+                                 </li>
+                              </ul>  
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="clippy">
+
+    </div>
+    <div class="container-fluid" id="formDiv">
+        <div class="container">
+            <h1 class="redColor vermin bigFont text-center p-3 m-3">Fill your order here!</h1>
+            <form method="POST" action="#" name="forma" onSubmit="return validate();">
+                <div class="form-row mb-3">
+                  <div class="form-group col-md-6">
+                    <label for="inputName4">Name</label>
+                    <input type="text" name="Name" class="form-control" id="inputName4"/>
+                    <span class="redColor d-none">Name should start with capital letter.</span>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputLastName4">Last name</label>
+                    <input type="text" name="LastName" class="form-control" id="inputLastName4"/>
+                    <span class="redColor d-none">Last name should start with capital letter.</span>
+                  </div>
+                </div>
+                <div class="form-row mb-3">
+                  <div class="form-group col-md-6" id="DDL">
+                    <label for="product">Product</label>
+                    <select name="ddlProduct" class="form-control font-form vermin redColor" name="Product" id="product">
+                      <option value="0"> Choose.. </option>
+                    </select>
+                    <span class="redColor d-none">Please select a product you want to order.</span>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control font-form" name="Address" id="inputAddress" placeholder="Street and house number"/>
+                    <span class="redColor d-none">Address should start with a capital letter and may include numbers.</span>
+                  </div>
+                </div>
+                <div class="form-row mb-3">
+                <div class="form-group col-md-12">
+                  <label for="inputCity2">City </label>
+                  <input type="text" class="form-control font-form" name="City" id="inputCity2" placeholder="Your City"/>
+                  <span class="redColor d-none">City should start with capital letter.</span>
+                </div>
+              </div>
+                <div class="form-row mb-3">
+                  <div class="form-group col-md-4 col-sm-12">
+                    <label for="inputNumber">Mobile phone number</label>
+                    <input type="text" class="form-control font-form" name="Mobile" id="inputNumber" placeholder="Number"/>
+                    <span class="redColor d-none">Minimum 9 digits required, optional + at start.</span>
+                  </div>
+                  <div class="form-group col-md-4 col-sm-12">
+                    <label for="inputEmail">Email</label>
+                    <input type="text" class="form-control font-form" name="Email" id="inputEmail" placeholder="example@gmail.com"/>
+                    <span class="redColor d-none">Invalid email format.</span>
+                  </div>
+                  <div class="form-group col-md-4 col-sm-12 mb-4">
+                    <label for="inputState">Payment method</label>
+                    <select id="inputState" name="Payment" class="form-control font-form">
+                      <option selected value="0">Choose...</option>
+                      <option value="1">Cash on delivery</option>
+                      <option value="2">Pay with credit card</option>
+                    </select>
+                    <span class="redColor d-none">Please select payment method.</span>
+                  </div>
+                  <div class="form-group col-md-12 d-none" id="creditCard">
+                    <label for="inputCity2">Credit card number </label>
+                    <input type="text" class="form-control" name="City" id="CCnumber" placeholder="XXXX-XXXX-XXXX-XXXX"/>
+                    <span class="redColor d-none">Input 16 digits and - after every four digits.</span>
+                  </div>
+                  <div class="form-group col-md-12 text-center mt-3">
+                    <input type="submit" value="Order" name="poslato" class="p-2 bg-danger form-control text-dark dugme"/>
+                  </div>
+                </div>
+              </form>
+        </div>
+    </div>
+    <footer>
+      <div class="container-fluid bg-dark pt-2">
+          <div class="row justify-content-around text-center mt-3">
+            <div class="col-lg-4 col-md-4 pt-2 twinds text-center"><h4 class="redColor">Follow us on social media</h4>
+            <ul class="d-flex justify-content-center">
+              <li>
+               <a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook m-2 text-light bigFont redColor"></i> </a> 
+              </li>
+              <li>
+                <a href="https://www.instagram.com" target="_blank"> <i class="fab fa-instagram bigFont text-light m-2"></i> </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com" target="_blank"> <i class="fab fa-linkedin m-2 text-light bigFont redColor"></i> </a> 
+              </li>
+            </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 p-2 twinds"><h4 class="redColor">Have a question? Contact us</h4>
+            <p class="text-light">    <i class="fas fa-envelope"></i>  support@rubystar.com     </p>
+            <p class="text-light">    <i class="fas fa-phone"></i> +38164 12 34 567 </p>
+          </div>
+            <div class="col-lg-4 col-md-4 p-2 twinds"><h4 class="redColor">Useful links</h4>
+            <ul>
+              <li>
+                <a href="documentation.pdf" target="_blank" class="text-light">Documentation</a>
+              </li>
+              <li>
+                <a href="js/main.js" target="_blank" class="text-light">Main JS</a>
+              </li>
+              <li>
+                <a href="js/order.js" target="_blank" class="text-light">Order JS</a>
+              </li>
+              <li>
+                <a href="css/style.css" target="_blank" class="text-light">CSS</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+          <div class="row bg-danger">
+            <div class="col-lg-12">
+              <p class="text-center text-dark pt-3 font-weight-bolder">Copyright <b>&copy;</b> 2020 Stefan Bogdanovski ICT College</p>
+            </div>
+          </div>
+      </div>
+    </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/order.js"></script>    
+  </body>
+  </html>

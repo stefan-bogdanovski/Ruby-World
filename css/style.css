@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: 'Vermin Vibes';
+    src: url('FontVermin/Vermin-Vibes.eot');
+    src: url('FontVermin/Vermin-Vibes.eot?#iefix') format('embedded-opentype'),
+        url('FontVermin/Vermin-Vibes.woff2') format('woff2'),
+        url('FontVermin/Vermin-Vibes.woff') format('woff'),
+        url('FontVermin/Vermin-Vibes.ttf') format('truetype'),
+        url('FontVermin/Vermin-Vibes.svg#Vermin-Vibes') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.vermin
+{
+    font-family: 'Vermin Vibes';
+}
+.twinds
+{
+    font-family: 'Trade Winds';
+}
+ul {
+    list-style-type: none;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    color: #000;
+}
+.bigFont
+{
+    font-size: 25px;
+}
+.smallFont
+{
+    font-size: 18px;
+}
+#navigation ul li{
+    padding: 25px 0px;
+}
+#navigation ul li a{
+    font-size: 22px;
+}
+#navigation ul li a:hover{
+    color: #dc3545;
+    font-weight: bold;
+}
+.redColor
+{
+    color: #dc3545;
+}
+.top-caption{
+    right: 15%;
+    top: 3%;
+}
+.hFont{
+    font-size: 32px;
+}
+#logo, #logo a:focus, #logo a:hover {
+    font-size: 25px;
+    padding: 25px 0px;
+    
+}
+.visina {
+    max-height: 700px;
+}
+.images {
+    background-size: cover;
+    background-position: bottom;    
+}
+@media screen and (max-width:991px)
+{
+    #logo 
+    {
+        padding:25px 0 0 0;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .item 
+    {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:575px)
+{
+    .paddingFilter
+    {
+        margin: 0px 15px 0px 15px;
+    }
+}
+@media screen and (max-width:445px)
+{
+    .v-align
+    {
+        flex-direction: column !important;
+        text-align: center;
+    }
+    .v-align li{
+        padding: 10px !important;
+    }
+}
+#clippy
+{
+    width: 100%;
+    min-height: 72px;
+    background-color: #343a40!important;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 0, 50% 0, 0 100%, 0 0);
+}
+.font-form
+{
+    font-size: 20px;
+}
+#filters 
+{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.item
+{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 33%;
+}
+.malifontLista{
+    font-size: 12px;
+}
+.order {
+    border-radius: 5px;
+}
+.t-left 
+{
+    text-align: left !important;
+}
+.labelBoja
+{
+    color: #dc3545;
+}
+.dugme
+{
+    font-weight: bold;
+    border: none !important;
+    width: 35%;
+    margin: 0px auto;
+    border-radius: 15px !important;
+
+}
+.form-control
+{
+    box-shadow: none;
+    border:none;
+    border-radius: 0px;;
+    border-bottom:1px solid #212529;
+}
+.form-control:focus{
+    box-shadow: none;
+    border:none;
+    border-bottom: 1px solid #dc3545;
+    border-radius: 0px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    box-shadow: 0 0 0 30px white inset !important;
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+#formDiv
+{
+    margin-top: -50px;
+    padding-bottom: 30px;
+}

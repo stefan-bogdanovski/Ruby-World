@@ -1,0 +1,280 @@
+[
+    {
+        "id" : 1,
+        "name" : "Rog Strix Hero II",
+        "image" :
+        {
+            "src" : "asus/ROG.jpg",
+            "alt" : "Rog Strix"
+        },
+        "brand" : "Asus",
+        "specifications" :
+        [
+            {
+                "name" : "CPU",
+                "value" : "intel i7-8750H"
+            },
+            {
+                "name" : "GPU",
+                "value" : "nVidia GTX 2060"
+            },
+            {
+                "name" : "RAM",
+                "value" : "32gb DDR4 2666Mhz"
+            },
+            {
+                "name" : "HDD",
+                "value" : "1TB 5400rpm"
+            },
+            {
+                "name" : "SSD",
+                "value" : "1TB M.2"
+            },
+            {
+                "name" : "Display",
+                "value" : "15.6-inch full HD"
+            }
+        ],
+        "price" :
+        {
+            "oldPrice" : "1799",
+            "newPrice" : "1499"
+        }
+    },
+    {
+        "id" : 2,
+        "name" : "Asus TUF gaming",
+        "image" :
+        {
+            "src" : "asus/TUF.jpg",
+            "alt" : "Tuf Gaming"
+        },
+        "brand" : "Asus",
+        "specifications" :
+        [
+            {
+                "name" : "CPU",
+                "value" : "Intel i5-8300H"
+            },
+            {
+                "name" : "GPU",
+                "value" : "nVidia GTX 1050"
+            },
+            {
+                "name" : "RAM",
+                "value" : "8gb DDR4 2666Mhz"
+            },
+            {
+                "name" : "HDD",
+                "value" : "1TB 5400rpm"
+            },
+            {
+                "name" : "SSD",
+                "value" : "256GB M.2"
+            },
+            {
+                "name" : "Display",
+                "value" : "15.6-inch full HD"
+            }
+        ],
+        "price" :
+        {
+            "oldPrice" : "1299",
+            "newPrice" : "1099"
+        }
+    },
+    {
+        "id" : 3,
+        "name" : "Asus ROG Zephyrus",
+        "image" :
+        {
+            "src" : "asus/Zephyrus.jpg",
+            "alt" : "Zephyrus"
+        },
+        "brand" : "Asus",
+        "specifications" :
+        [
+            {
+                "name" : "CPU",
+                "value" : "intel i7-9750H"
+            },
+            {
+                "name" : "GPU",
+                "value" : "nVidia RTX 2070"
+            },
+            {
+                "name" : "RAM",
+                "value" : "32gb DDR4 2666Mhz"
+            },
+            {
+                "name" : "HDD",
+                "value" : "1TB 5400rpm"
+            },
+            {
+                "name" : "SSD",
+                "value" : "1TB M.2"
+            },
+            {
+                "name" : "Display",
+                "value" : "15.6-inch full HD"
+            }
+        ],
+        "price" :
+        {
+            "oldPrice" : "2499",
+            "newPrice" : "2049"
+        }
+    },
+    {
+        "id" : 4,
+        "name" : "Asus ZenBook",
+        "image" :
+        {
+            "src" : "asus/Zenbook.jpg",
+            "alt" : "Asus ZenBook"
+        },
+        "brand" : "Asus",
+        "specifications" :
+        [
+            {
+                "name" : "CPU",
+                "value" : "intel i5-7200U"
+            },
+            {
+                "name" : "GPU",
+                "value" : "nVidia GTX 2060"
+            },
+            {
+                "name" : "RAM",
+                "value" : "8gb DDR4 1666Mhz"
+            },
+            {
+                "name" : "SSD",
+                "value" : "256GB"
+            },
+            {
+                "name" : "Display",
+                "value" : "14-inch full HD"
+            }
+        ],
+        "price" :
+        {
+            "oldPrice" : "1119",
+            "newPrice" : "1030"
+        }
+    },
+    {
+        "id" : 5,
+        "name" : "MacBook Air",
+        "image" :
+        {
+            "src" : "apple/MacBook Air.jpg",
+            "alt" : "Apple MacBook Air"
+        },
+        "brand" : "Apple",
+        "specifications" :
+        [
+            {
+                "name" : "CPU",
+                "value" : "intel i5-8210Y"
+            },
+            {
+                "name" : "GPU",
+                "value" : "Intel UHD 617"
+            },
+            {
+                "name" : "RAM",
+                "value" : "8gb LPDDR3 2133Mhz"
+            },
+            {
+                "name" : "SSD",
+                "value" : "128gb 5400rpm"
+            },
+            {
+                "name" : "Display",
+                "value" : "13.3 Retina-IPS 2560px x 1600px"
+            }
+        ],
+        "price" :
+        {
+            "oldPrice" : "1749",
+            "newPrice" : "1529"
+        }
+    },
+    {
+        "id" : 6,
+        "name" : "MacBook Pro",
+        "image" :
+        {
+            "src" : "apple/MacBook Pro.jpg",
+            "alt" : "MacBook Pro"
+        },
+        "brand" : "Apple",
+        "specifications" :
+        [
+            {
+                "name" : "CPU",
+                "value" : "intel i5-8750H"
+            },
+            {
+                "name" : "GPU",
+                "value" : "Intel Iris Plus Graphics 640"
+            },
+            {
+                "name" : "RAM",
+                "value" : "8gb LPDDR3 2133Mhz"
+            },
+            {
+                "name" : "SSD",
+                "value" : "128gb"
+            },
+            {
+                "name" : "Display",
+                "value" : "13.3-inch LED 2560px x 1600px"
+            }
+        ],
+        "price" :
+        {
+            "oldPrice" : "2199",
+            "newPrice" : "1999"
+        }
+    },
+    {
+        "id" : 7,
+        "name" : "MacBook Space Gray",
+        "image" :
+        {
+            "src" : "apple/MacBook Pro Silver.png",
+            "alt" : "MacBook Pro Silver"
+        },
+        "brand" : "Apple",
+        "specifications" :
+        [
+            {
+                "name" : "CPU",
+                "value" : "intel i9 9880H"
+            },
+            {
+                "name" : "GPU",
+                "value" : "AMD Radeon Pro 560X"
+            },
+            {
+                "name" : "RAM",
+                "value" : "16gb 2133Mhz"
+            },
+            {
+                "name" : "SSD",
+                "value" : "512gb SSD"
+            },
+            {
+                "name" : "Display",
+                "value" : "15.4i-nch IPS Retina 2880px x 1800px"
+            }
+        ],
+        "price" :
+        {
+            "oldPrice" : "1799",
+            "newPrice" : "1499"
+        }
+    }
+]

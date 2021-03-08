@@ -1,0 +1,22 @@
+[
+    {
+        "naziv" : "Free delivery",
+        "ikonica" : "fas fa-truck",
+        "opis" : "We deliver our products worldwide without any additional cost."
+    },
+    {
+        "naziv"  : "Affordable prices",
+        "ikonica" : "fas fa-dollar-sign",
+        "opis" :"Good laptop needs a good price and we offer that. Deferred payment up to 12 months."   
+    },
+    {
+        "naziv"  : "Earn discount",
+        "ikonica" : "fas fa-percent",
+        "opis" :"10% discount for Apple laptops this month only."   
+    },
+    {
+        "naziv"  : "Microsoft windows",
+        "ikonica" : "fab fa-windows",
+        "opis" :"Get Microsoft windows 10 for free by buying one of our ROG Asus laptops."   
+    }
+]
